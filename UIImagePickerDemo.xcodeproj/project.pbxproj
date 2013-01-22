@@ -18,6 +18,7 @@
 		98BA8B2816AF4346006B63F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98BA8B2716AF4346006B63F9 /* Default-568h@2x.png */; };
 		98BA8B2B16AF4346006B63F9 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BA8B2A16AF4346006B63F9 /* JSViewController.m */; };
 		98BA8B2E16AF4346006B63F9 /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BA8B2C16AF4346006B63F9 /* JSViewController.xib */; };
+		98BA8B3516AF4A75006B63F9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BA8B3416AF4A75006B63F9 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		98BA8B2916AF4346006B63F9 /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		98BA8B2A16AF4346006B63F9 /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		98BA8B2D16AF4346006B63F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSViewController.xib; sourceTree = "<group>"; };
+		98BA8B3416AF4A75006B63F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BA8B3516AF4A75006B63F9 /* MobileCoreServices.framework in Frameworks */,
 				98BA8B1216AF4346006B63F9 /* UIKit.framework in Frameworks */,
 				98BA8B1416AF4346006B63F9 /* Foundation.framework in Frameworks */,
 				98BA8B1616AF4346006B63F9 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		98BA8B1016AF4346006B63F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98BA8B3416AF4A75006B63F9 /* MobileCoreServices.framework */,
 				98BA8B1116AF4346006B63F9 /* UIKit.framework */,
 				98BA8B1316AF4346006B63F9 /* Foundation.framework */,
 				98BA8B1516AF4346006B63F9 /* CoreGraphics.framework */,

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSViewController : UIViewController
+@interface JSViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)cameraButtonPressed:(id)sender;
+- (IBAction)galleryButtonPressed:(id)sender;
 
 @end
